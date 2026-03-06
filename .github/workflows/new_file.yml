@@ -1,0 +1,16 @@
+name: New file
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+
+  bless:
+    runs-on: ubuntu-latest
+    steps:
+      -name: seeking blessings to users
+       run: echo "Sada sukhi raho vats"
+
+      -name: seeking blessing from users
+       run: echo "Mjhe $USER aapke aashirwaad ki bahut zrurat h" 
